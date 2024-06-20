@@ -1,0 +1,278 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pdf Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top" bgcolor="#ffe77b" style="background-color:#fff;">
+              <img height="100" width="100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgQ_m4DUpDZtd5CnGPtFUpGMXXEoPWNSVnAA&usqp=CAU" alt="">
+            </td>
+            <td align="left" bgcolor="#ffe77b" style="background-color: #fff;">
+              <h2 style="font-weight: 900;color: brown;">Online Store</h2>
+              <p>227 Cobblestone Road, 30000 Bedrock, Cobblestone County <br/> 
+                http://dinostore.bed | hello@dinostore.bed +555 7 789-1234</p>
+            </td>
+        </tr>
+    </table> 
+    <h1 style="font-size: 30px;font-weight: 600; color: green; margin-top: 10px;">INVOICE</h1>
+    <h4>#1</h4> 
+    <table width="95%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+          <td width="30%" align="left" valign="top" bgcolor="#ffe77b" style="background-color:#fff;">
+            <p>Invoice To:</p>
+            <h3 style="font-weight: 800;color: brown;">Jhone Carter</h3>
+          </td>
+          <td width="70%" align="left" bgcolor="#ffe77b" style="background-color: #fff;">             
+          </td>
+      </tr>
+      <tr>
+        <td width="30%" align="left" valign="top" bgcolor="#ffe77b" style="background-color:#fff;">
+          <p>Social Media Manager</p>
+          <p>Bolen Tex .Inc</p>
+        </td>
+        <td width="70%" align="left" bgcolor="#ffe77b" style="background-color: #fff;">             
+        </td>
+      </tr>
+  </table>  
+      <table width="95%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="30%" align="left" valign="top" bgcolor="#ffe77b" style="background-color:#fff;">
+            <p>+152 5248 523</p>
+            <p>info@gmail.com</p>
+          </td>
+          <td width="40%" align="left" bgcolor="#ffe77b" style="background-color: #fff;">             
+          </td>
+          <td width="30%" align="right" bgcolor="#ffe77b" style="background-color: #fff;">
+            <h4 style="font-weight: 700;color: #000000;">Date: 01 Dec 2020</h4> 
+            <h4 style="font-weight: 700;color: #000000;">INVOICE NO: DX-5236</h4>            
+          </td>
+        </tr>
+      </table>   
+      <table class="table" width="95%">
+          <thead>
+            <tr>
+              <th scope="col">Photo</th>
+              <th scope="col">Description</th>
+              <th scope="col">Unit</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Price</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each products.prodlist}}
+            <tr>
+              <td width="10%">
+                <img height="70" width="70" src="{{this.imgurl}}" alt="">
+              </td>
+              <th scope="row" width="50%">
+                <h5 style="font-weight: 700;color:chocolate">{{this.name}}</h5>
+                <p>{{this.description}}</p>
+              </th>
+              <td width="10%">{{this.unit}}</td>
+              <td width="10%">{{this.quantity}}</td>
+              <td width="10%">${{this.price}}</td>
+              <td width="10%">${{this.total}}</td>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+        <table width="95%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="90%"  align="right" style="font-size: 25px;font-weight: 700;color:darkred; background-color: #f6f6f6;">Sub Total</td>
+            <td width="10%" align="right" style="background-color: lightgreen;"><h2 style="font-size: 25px;font-weight: 700;color:#fff;">${{products.subtotal}}</h2></td>
+          </tr>
+          <tr>
+            <td width="90%"  align="right" style="font-size: 25px;font-weight: 700;color:darkred; background-color: #f6f6f6;">Tax</td>
+            <td width="10%" align="right" style="background-color: lightcoral;"><h2 style="font-size: 25px;font-weight: 700;color:#fff;">${{products.tax}}</h2></td>
+          </tr>
+          <tr>
+            <td width="90%"  align="right" style="font-size: 25px;font-weight: 700;color:darkred; background-color: #f6f6f6;">Grand Total</td>
+            <td width="10%" align="right" style="background-color: lightgreen;"><h2 style="font-size: 25px;font-weight: 700;color:#fff;">${{products.gtotal}}</h2></td>
+          </tr>
+        </table>
+        <table width="95%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="100%"  align="left" style="font-size: 25px;font-weight: 700;color:red; background-color: #f6f6f6;">Notice:</td>
+          </tr>
+          <tr>
+            <td width="100%"  align="left" style="font-size: 25px;font-weight: 700;color:#000; background-color: #f6f6f6;">A finance charge of 1.5% will be made on unpaid balances after 30 days.</td>
+          </tr>
+        </table>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mongoro Account Statement</title>
+    <link href="https://fonts.cdnfonts.com/css/museo-sans-rounded" rel="stylesheet" />
+<style>
+        body {
+            font-family: Museo Sans Rounded;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        b {
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 35%;
+            padding: 10px;
+            padding: 0px 50px;
+            font-size: 12px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+​
+
+<body style="background-color: #f9f9f9;">
+   
+    <div class="header-container" style="background-color: #f9f9f9;">
+        <div class="logo-section" style="width: 95%; margin: 50px auto;">
+            <div class="logo" style="width: 400px;">
+                <img style='display: block; margin: 0'
+                    src='http://res.cloudinary.com/dszrk3lcz/image/upload/v1681388703/dqfex6vpnnncytqrtntx.png'
+                    alt='' />
+            </div>
+        </div>
+      
+        <div class="row">
+            <div class="column" style="">
+                
+                <div class="set">
+                    <p style="display: flex; padding: 1px;">
+                        <span style="width: 25%;">Print Date</span> <b>{{topList.today}}</b>
+                    </p>
+                    <p style="display: flex; padding: 1px;">
+                        <span style="width: 25%;">Address</span>
+                        <b>No 21, Blantry Street, Wuse 2, Abuja</b>
+                    </p>
+                    <p style="display: flex; padding: 1px;">
+                        <span style="width: 25%;">Period</span>
+                        <b>{{topList.from}} - {{topList.to}}</b>
+                    </p>
+                    <p style="display: flex; padding: 1px;">
+                        <span style="width: 25%;">Account Number</span> <b>{{topList.accountNumber}}</b>
+                    </p>
+                    <p style="display: flex; padding: 1px;">
+                        <span style="width: 25%;">Currency</span> <b>Naira NGN</b>
+                    </p>
+                </div>
+               
+            </div>
+            <div class="column" style="">
+               
+                <div class="set">
+                    <p style="display: flex; padding: 1px;">
+                        <span style="width: 25%;">Opening Balance</span>
+                        <b>NGN{{topList.open}}</b>
+                    </p>
+                    <p style="display: flex; padding: 1px;">
+                        <span style="width: 25%;">Total Debit</span> <b>NGN{{topList.totalDebit}}</b>
+                    </p>
+                    <p style="display: flex; padding: 1px;">
+                        <span style="width: 25%;">Total Credit</span> <b>NGN{{topList.totalCredit}}</b>
+                    </p>
+                    <p style="display: flex; padding: 1px;">
+                        <span style="width: 25%;">Closing Balance</span>
+                        <b>NGN{{topList.close}}</b>
+                    </p>
+                </div>
+               
+            </div>
+        </div>
+        ​  
+    </div>
+   
+    <div class="table" style="width: 100%;">
+        <table style="
+          width: 95%;
+          background-color: white;
+          margin: 0 auto;
+          padding: 12px;
+        ">
+            <thead style="font-size: 12px;">
+                <tr>
+                    <td style="font-weight: 600; padding: 13px;">TRANSACTION DATE</td>
+                    <td style="font-weight: 600; padding: 13px;">REFERENCE</td>
+                    <td style="font-weight: 600; padding: 13px;">DEBIT</td>
+                    <td style="font-weight: 600; padding: 13px;">CREDIT</td>
+                    <td style="font-weight: 600; padding: 13px;">BALANCE</td>
+                    <td style="font-weight: 600; padding: 13px;">REMARK</td>
+                </tr>
+            </thead>
+            
+            <tbody style="font-size: 11px;">
+                ​ ​{{#each products.prodlist}}
+                <tr>
+                    <td style="padding: 13px;">{{this.Date}}</td>
+                    <td style="padding: 13px;">{{this.reference}}</td>
+                    <td style="padding: 13px;">{{this.debit_amount}}</td>
+                    <td style="padding: 13px;">{{this.credit_amount}}</td>
+                    <td style="padding: 13px;">{{this.balance}}</td>
+                    <td style="padding: 13px;">{{this.service_type}}</td>
+                </tr>
+              
+                {{/each}}
+            </tbody>
+            
+        </table>
+        <!-- <p style="
+          width: 95%;
+          margin: auto;
+          background-color: white;
+          padding: 30px;
+          box-sizing: border-box;
+        ">
+            Showing <span class="showing" style="color: #2ea49a;">1</span> of
+            <span class="total">10</span> entries
+        </p> -->
+    </div>
+    ​ 
+    <div class="disclaimer-container" style="width: 92%; margin: 30px auto;">
+        <h3>DISCLAIMER</h3>
+        <p style="color: rgba(0, 0, 0, 0.6); line-height: 0.5cm;font-size: 10px; margin: 10px 0px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi
+            accusamus autem aspernatur rerum dolorum cupiditate. Facere suscipit
+            sint, eligendi omnis fugit maxime eos iste natus a officia! Consequatur
+            non est vel quam eligendi magni? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Modi dolorem iure, excepturi molestias odit ipsum
+            eaque voluptatem voluptatum quod inventore non vitae necessitatibus quia
+            magnam cum repellendus molestiae sint nemo adipisci blanditiis? Sit fuga
+            nihil eos, nobis omnis expedita illum. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Harum officia, rem exercitationem ratione
+            in quia non accusantium adipisci nulla eius placeat nemo. Earum, eveniet
+            voluptate.
+        </p>
+    </div>
+    ​
+    ​
+<script src="src/index.js"></script>
+</body>
+
+</html>

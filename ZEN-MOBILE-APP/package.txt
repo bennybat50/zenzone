@@ -1,0 +1,16 @@
+MONTHLY
+PRODUCT_ID= submindcasts_999_1m
+BASE-ID: 9-submindcasts-m
+NAME=Access to all resources-Monthly
+DESCRIPTION= Access to all resources for 0ne month
+BILLING PERIOD=monthly
+DEFAULT PRICE=9.99
+OFFER=3-days-offer
+
+YEARLY
+PRODUCT_ID= submindcast_3797_1y
+BASE-ID: 37-submindcasts-y
+NAME=Access to all resources Yearly
+DESCRIPTION= Access to all resources for 0ne year
+BILLING PERIOD=yearly
+DEFAULT PRICE=35.97

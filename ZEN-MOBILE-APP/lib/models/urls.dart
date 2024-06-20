@@ -1,0 +1,43 @@
+class Urls {
+  static String domain =
+          'https://mindcastserver-a98c5305de98.herokuapp.com/api/v1',
+      test = "http://localhost:8000/api",
+      appVersion = "1.0.0",
+      auth = domain + "/auth",
+      user = domain + "/user";
+
+  //URLS
+  static String login = "$auth/login",
+      register = "$auth/register",
+      resetPassword = "$auth/rest-password",
+      aUser = "$user/single",
+      dashboard = "$user/user/home",
+      userSettings = "$user/user/setting",
+      hostProfile = "$user/user/host",
+      getInterest = "$user/interests",
+      resource = "$user/resources",
+      searchResource = "$user/resources/search",
+      getResourcesInterest = "$user/resource-interests",
+      getResourcesPopular = "$user/resources/top/count",
+      getAppUpdate = "$user/app-version",
+      getAppMessage = "$user/app-message",
+      saveBookmark = "$user/bookmark",
+      deleteBookmarks = "$user/bookmark/delete",
+      changePassword = "$user/change/password",
+      becomeHost = "$auth/host",
+      verify = "$auth/verify",
+      resendCode = "$auth/resend-code",
+      assignCouponCode = "$user/assign-coupon",
+      portfolios = "$user/portfolios",
+      activities = "$user/activities",
+      partners = "$user/partners",
+      bonus = "$user/bonus",
+      withdrawalMethods = "$user/withdrawal-request",
+      accountTransfer = "$user/account-transfer",
+      purchaseInvestment = "$user/purchase-investment",
+      withdrawalActivities = "$user/withdrawal-history",
+      reinvest = "$user/reinvest",
+      updatePassword = "$user/update-password",
+      messages = "$user/messages",
+      resources = "$auth/get-resources";
+}
