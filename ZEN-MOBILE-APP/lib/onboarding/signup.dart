@@ -109,7 +109,7 @@ class _SignUpState extends State<SignUp> {
                           ),
                           Container(
                             child: Text(
-                              "MINDCASTS",
+                              "Zenzone",
                               style: TextStyle(
                                   fontSize: 20,
                                   fontWeight: FontWeight.w700,

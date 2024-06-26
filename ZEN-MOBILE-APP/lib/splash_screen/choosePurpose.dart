@@ -76,8 +76,8 @@ class _ChoosePurposeState extends State<ChoosePurpose> {
                   ),
                   Container(
                     height: 70,
-                    child: const Text(
-                      "What would you like to do on Mindcasts?",
+                    child: Text(
+                      "What would you like to do on Zenzone?",
                       style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.w700,
@@ -85,7 +85,7 @@ class _ChoosePurposeState extends State<ChoosePurpose> {
                     ),
                   ),
                   Container(
-                    child: const Text(
+                    child: Text(
                       "This will help us recommend curated resources for your well-being",
                       style: TextStyle(color: Colors.white, fontSize: 16),
                     ),

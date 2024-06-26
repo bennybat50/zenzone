@@ -35,7 +35,7 @@ class _AllowNotificationModalState extends State<AllowNotificationModal> {
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 20),
                     child: Text(
-                      "Get the best out of Mindcasts  on "
+                      "Get the best out of Zenzone  on "
                       "recommendations, updates and "
                       "personalized goals.",
                       style: TextStyle(
