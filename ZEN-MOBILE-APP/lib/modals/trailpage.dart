@@ -891,7 +891,7 @@ class _TrialPageState extends State<TrialPage>
     var app = await DeviceInfo().getPackageInfo();
     print(appBloc.appVersion['app_version']);
     if ("${app['v_name']}" != "${appBloc.appVersion["app_version"]}") {
-      NextPage().nextRoute(context, const AppUpdate());
+      NextPage().nextRoute(context, AppUpdate());
     }
   }
 
