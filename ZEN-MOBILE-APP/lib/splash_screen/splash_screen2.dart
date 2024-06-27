@@ -74,14 +74,14 @@ class _SplashScreen2State extends State<SplashScreen2> {
                             height: 170,
                             child: Column(
                               children: [
-                                Container(
-                                  height: 100,
-                                  child: Image.asset(
-                                    "assets/images/logo.png",
-                                    // fit: BoxFit.contain,
-                                    // width: 80,
-                                  ),
-                                ),
+                                // Container(
+                                //   height: 100,
+                                //   child: Image.asset(
+                                //     "assets/images/logo.png",
+                                //     // fit: BoxFit.contain,
+                                //     // width: 80,
+                                //   ),
+                                // ),
                                 const Text(
                                   "Zenzone",
                                   style: TextStyle(

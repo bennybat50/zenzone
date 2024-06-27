@@ -96,12 +96,12 @@ class _LoginState extends State<Login> {
                       Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Container(
-                            child: Image.asset(
-                              "assets/images/logo.png",
-                              height: 60,
-                            ),
-                          ),
+                          // Container(
+                          //   child: Image.asset(
+                          //     "assets/images/logo.png",
+                          //     height: 60,
+                          //   ),
+                          // ),
                           SizedBox(
                             height: 20,
                           ),

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:mindcast/bloc/app_bloc.dart';
 import 'package:mindcast/dashboard/moods/moodBase.dart';
 import 'package:mindcast/modals/allow_notifications_modal.dart';
+import 'package:mindcast/settings/becomeHost.dart';
 import 'package:mindcast/settings/password.dart';
 import 'package:mindcast/settings/updateProfile.dart';
 import 'package:mindcast/splash_screen/terms_view.dart';
@@ -31,10 +32,10 @@ class _SettingsState extends State<Settings> {
       "icon": "assets/images/icons/mood_check.png",
       "title": "Mood check",
     },
-    // {
-    //   "icon": "assets/images/icons/host.png",
-    //   "title": "Become a host",
-    // },
+    {
+      "icon": "assets/images/icons/host.png",
+      "title": "Become a host",
+    },
     {
       "icon": "assets/images/icons/password.png",
       "title": "Change Password",
@@ -169,14 +170,14 @@ class _SettingsState extends State<Settings> {
                                   MaterialPageRoute(
                                       builder: (builder) => const MoodBase()));
                               break;
-                            // case 2:
-                            //   Navigator.push(
-                            //       context,
-                            //       MaterialPageRoute(
-                            //           builder: (builder) =>
-                            //               const BecomeHost()));
-                            //   break;
                             case 2:
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (builder) =>
+                                          const BecomeHost()));
+                              break;
+                            case 3:
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
@@ -184,7 +185,7 @@ class _SettingsState extends State<Settings> {
                                           const ChangePassword()));
                               break;
 
-                            case 3:
+                            case 4:
                               showModalBottomSheet(
                                   backgroundColor: Colors.white,
                                   isScrollControlled: true,
@@ -197,10 +198,10 @@ class _SettingsState extends State<Settings> {
                             //   AppActions().showSuccessToast(
                             //       text: "Coming soon", context: context);
                             //   break;
-                            case 4:
+                            case 5:
                               NextPage().nextRoute(context, SupportView());
                               break;
-                            case 5:
+                            case 6:
                               NextPage().nextRoute(context, TermsView());
                               break;
                           }

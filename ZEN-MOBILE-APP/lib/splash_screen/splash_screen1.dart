@@ -77,13 +77,13 @@ class _SplashScreen1State extends State<SplashScreen1> {
                 child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
-                  height: 100,
-                  child: Image.asset(
-                    "assets/images/logo.png",
-                    // width: 80,
-                  ),
-                ),
+                // Container(
+                //   height: 100,
+                //   child: Image.asset(
+                //     "assets/images/logo.png",
+                //     // width: 80,
+                //   ),
+                // ),
                 Text(
                   "Zenzone",
                   style: TextStyle(

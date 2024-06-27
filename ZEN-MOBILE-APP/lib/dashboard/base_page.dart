@@ -72,7 +72,7 @@ class _BasePageState extends State<BasePage> {
       );
     }
     showNotificationDialog();
-    checkAppInfo();
+    //checkAppInfo();
     checkAppMessages();
     super.initState();
   }

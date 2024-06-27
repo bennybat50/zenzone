@@ -98,12 +98,12 @@ class _SignUpState extends State<SignUp> {
                       Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Container(
-                            child: Image.asset(
-                              "assets/images/logo.png",
-                              height: 60,
-                            ),
-                          ),
+                          // Container(
+                          //   child: Image.asset(
+                          //     "assets/images/logo.png",
+                          //     height: 60,
+                          //   ),
+                          // ),
                           SizedBox(
                             height: 20,
                           ),
